@@ -1,4 +1,12 @@
 from classes.Agent import Agent
 
 class CyberAgent(Agent):
-    pass
+    def __init__(self, code_name, clearance_level, specialty ):
+        super().__init__(code_name, clearance_level)
+        self.specialty  = specialty
+
+    def report(self):
+        super().report()
+        print(f"specialty: {self.specialty}")
+
+
