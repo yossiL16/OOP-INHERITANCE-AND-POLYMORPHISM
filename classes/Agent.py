@@ -7,7 +7,7 @@ class Agent:
         self.__clearance_level = clearance_level
 
     def report(self):
-        print(f"Agent {self.code_name} reporting. Clearance Level: {self.__clearance_level}.")
+        print(f"Agent {self.code_name} reporting. Clearance Level: {self.__clearance_level}.", end=" ")
 
     def get_clearance_level(self):
         return self.__clearance_level

@@ -8,4 +8,4 @@ class FieldAgent(Agent):
 
     def report(self):
         super().report()
-        print(f"Agent {self.code_name} reporting. Clearance Level: {self.__clearance_level}. from: {self.region}")
+        print(f"from: {self.region}")
