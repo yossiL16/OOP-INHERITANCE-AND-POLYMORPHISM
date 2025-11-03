@@ -1,4 +1,4 @@
-from Agent import Agent
+from classes.Agent import *
 
 class Mission:
 
